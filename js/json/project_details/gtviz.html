@@ -1,0 +1,46 @@
+		<p class='intro'>How do you visualize hundreds and thousands of reports coming in from areas affected by a natural disaster or social/political conflict? I undertook this challenge and designed + developed a new set of interactive visualization tools for crisis reponse &amp; investigation teams, thereby improving sense-making and situational awareness.</p>
+
+		<p>The following is a demo of Geo-Temporal Tag Visualization (GTViz) presenting a visual summary of crimes reported in the city of Atlanta. GTViz is one of the three new visualizations I developed to improve the user interaction/experience provided by existing crisis maps:</p>
+		
+		<video controls="controls" poster="img/folio/gtviz/vid_poster.png" width="640" height="360">
+			<source src="img/folio/gtviz/gtviz.mp4" type="video/mp4" />
+			<source src="img/folio/gtviz/gtviz.webmsd.webm" type="video/webm" />
+			<source src="img/folio/gtviz/gtviz.ogv" type="video/ogg" />
+			<object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="640" height="360">
+				<param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
+				<param name="allowFullScreen" value="true" />
+				<param name="wmode" value="transparent" />
+				<param name="flashVars" value="config={'playlist':['img%2Ffolio%2Fgtviz%2Fvid_poster.png',{'url':'img%2Ffolio%2Fgtviz%2Fgtviz.mp4','autoPlay':false}]}" />
+				<img alt="Demo: GTViz" src="img/folio/gtviz/vid_poster.png" width="640" height="360" title="No video playback capabilities, please download the video below" />
+			</object>
+		</video>
+
+		<p>
+		Download video: <a href="img/folio/gtviz/gtviz.mp4">MP4 format</a> - <a href="img/folio/gtviz/gtviz.ogv">Ogg format</a> - <a href="img/folio/gtviz/gtviz.webmsd.webm">WebM format</a>
+		</p>
+
+		<p>A user experiment showed that these new visualization tools reduced the time required to find data-specific answers to between 10 and 15 seconds. What follows is a quick summary but for more details, you can always take a look at my published work on the subject: <a href="http://hci.cs.umanitoba.ca/people/bio/hina-aman">http://hci.cs.umanitoba.ca/people/bio/hina-aman</a></p>
+
+		<h2>The need better visualization tools</h2>
+		<p>Examples of visualizations provided by existing crisis maps:</p>
+		<img src="img/folio/gtviz/crisismaps.png" alt="Various Crisis Maps" />
+
+		<p>Online crisis maps are mainly used for sense-making and situational awareness. These maps also help crisis responders to organize relief efforts. </p>
+		<p>For a complete situational awareness, you would want to ask the several questions about the mapped data. For example:</p>
+			<ol>
+				<li>What are the reports in this region or what is this Crisis Map about?</li>	
+				<li>What is	the	most prominent theme/topic of reports?</li>	
+				<li>How has one topic evolved compared to another in one or multiple areas?</li>
+			</ol>
+		<p>One can not answer these and similar questions by just looking at the above maps. It requires a lot of interaction with the maps and an analysis of several hundred reports. However, a proper set of visualizations can save you the effort and the time required.</p>
+
+		<h2>The Design Process: A Summary</h2>
+		<p>The first step was to identify questions one could ask about the data to get a complete situational awareness. I obtained several datasets from crisis maps and used these questions to guide the design process. Crisis reports are a form a geo-temporal data and therefore, a complete visualization of such data would include the geographic and temporal aspects along with the content/theme.</p> 
+
+		<p>Before heading to the sketchboard for designs, I had figure out ways of processing all the data to extract useful information. I came up with two methods: Key-Word In Context (KWIC) Method &amp; Metadata Method. The former is an automated process of sniffing and grouping keywords, whereas the later uses crowd-sourced metadata.</p>
+
+		<p>Presenting all this information (geographic, temporal and content) to the users without overwhelming them is a huge challenge and it took several design iterations to come up with three promising visualizations: Geo-Temporal Tag Visualization (GTViz), Geo-Temporal Pies (GTP) and Geo-SparkClouds.</p>
+
+		<p>I conducted a controlled experiment to explore how efficiently (quickly and accurately) users could perform three different types of tasks: looking for specific data, identifying trends and data comparision.All these tasks were were based on the questions listed earlier.</p> 
+
+		<p>It took participants between 10 to 15 seconds to answer each question. The overall performance of GTViz was better and it also emerged as a user favourite in an additional subjective study. I should mention, however, that for some tasks GTP and Geo-SparkClouds did perform better than GTViz. For more details, please refer to the following publications: <a href="http://hci.cs.umanitoba.ca/people/bio/hina-aman">http://hci.cs.umanitoba.ca/people/bio/hina-aman</a></p>

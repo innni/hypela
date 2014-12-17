@@ -3,8 +3,9 @@
  */
 
 // Fonts
-$font-main: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$font-key: Georgia, 'Times New Roman' serif;
+
+$sans-serif-font: 'FuturaStdBook';
+$serif-font: 'Playfair Display', serif;
 
 // <hr> color
 $hr-color: #ccc;
@@ -14,3 +15,13 @@ $selection-color: #b3d4fc;
 
 // Text Color
 $main-color: #222;
+
+// Theme Colors
+
+$dark: #142A38;
+$blue: #00c8c8;
+$white: #faf8f6;
+$offwhite: #f3f2ee;
+$dark-gray: #333;
+$blue-green: #93c1c4;
+$light-yellow: #f5f2e1;

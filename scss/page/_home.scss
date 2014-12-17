@@ -1,0 +1,45 @@
+
+#about {
+  background: $dark -webkit-canvas(simulation) no-repeat;
+  
+}
+
+ .about {
+
+  nav {
+
+    margin-left: 5px;
+
+    ul {
+    margin: 26px 0px 0px 0px;
+    padding: 0;
+    
+
+      li {
+        display: inline;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-right: 10px;
+      } 
+    }
+
+   }
+
+   .arrow_box {
+    color: $blue;
+    border: 2px solid $blue;
+    background: #142A38;
+   }
+
+    .arrow_box a {
+      font-weight: normal;
+      color: $blue;
+   }
+
+}
+
+.mainbox {
+    padding: 5% 0% 0% 5%;
+    width: 13em;
+}

@@ -7,8 +7,10 @@
 
 define([
 	// Dependencies of the module
-	'jquery'
-], function ($) {
+	'jquery',
+	'underscore'
+	'backbone'
+], function ($, _, Backbone) {
 
 	// Strict mode to prevent sloppy JS
 	'use strict';

@@ -1,0 +1,27 @@
+.about {
+	
+	h1 {
+		font-family: $sans-serif-font;
+		margin: 0px;
+		//font-size: 4em;
+		font-size: 3.6em;
+		line-height: 1em;
+	}
+	
+	h2 {
+		font-family: $serif-font;
+		//font-size: 1.86em; 
+		font-size: 1.8em;
+		padding: 0.4em 0em;
+		border-top: 2px solid;
+		border-bottom: 2px solid;
+		margin-top: 1em;
+	}
+	
+	nav ul li {
+		font-size: 0.84em;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+	}
+
+}

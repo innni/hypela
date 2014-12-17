@@ -1,0 +1,20 @@
+<section id="folio" class="folio blue-bg page down">
+	
+	
+	<div class="gallery meat">
+		<div class="top">
+			<div class="arrow_box_top link_box"><a href="#/">Home</a></div>
+			<h1>Selected Projects</h1>
+			<div class="clearer"></div>
+		</div>
+	
+	<div class="allprojects">
+	<% _.each(projects, function(project){ %>
+		<div class="project">
+			<a href="#/projects/<%= project.get('id') %>"><img src="<%= project.get('screenshot') %>" alt="<%= project.get('title') %>" /></a>
+			<div class="title"><%= project.get("title") %></div>
+		</div>
+	<% }); %>
+	</div>
+</div>
+</section>

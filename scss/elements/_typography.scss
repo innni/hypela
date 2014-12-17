@@ -1,14 +1,8 @@
 /**
- * Typography is specified in here.
+ * Typography
  */
 
-body {
-	font-family: $font-main;
-}
-
-h1,
-h2,
-h3,
-h4 {
-	font-family: $font-key;
-}
+@import 'base_typography';
+@import 'gallery_typography';
+@import 'main_typography';
+@import 'work_typography';

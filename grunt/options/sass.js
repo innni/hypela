@@ -22,7 +22,8 @@ module.exports = {
 	dev: {
 		options: {
 			unixNewlines: true,
-			style: 'expanded'
+			style: 'expanded',
+			require: 'susy'
 		},
 
 		files: helper.sassDev

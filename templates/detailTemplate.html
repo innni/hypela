@@ -1,0 +1,37 @@
+
+<div id="navbox<%= project.get('id') %>" class="navbox">
+	<div class="navboxes">
+
+		<% if (links.prev > 0 ) { %>
+		<div class="arrow_box_left link_box">
+			<a href="#/projects/<%= links.prev %>">Prev</a>
+		</div>
+		<% } %>
+
+
+		<div class="no_arrow_box link_box">
+			<a href="#/projects">All</a>
+		</div>
+
+		<% if (links.next < (links.max + 1) )  { %>
+		<div class="arrow_box_right link_box">
+				<a href="#/projects/<%= links.next %>">Next</a>
+		</div>
+		<% } %>
+
+	</div>
+</div>
+
+<section id="project-description<%= project.get('id') %>" class="project-description offwhite-bg page slide-left">
+
+
+	
+
+	<div class="details meat">
+		<h1><%= project.get('title') %></h1>
+		
+		<!-- <nav><a href="/#/projects">RETURN TO GALLERY</a></nav> -->
+
+		<p class="smalltext">
+			<%= project.get('technologies') %> <br/> </p>
+

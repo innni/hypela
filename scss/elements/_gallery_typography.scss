@@ -1,0 +1,63 @@
+.project-description h1 {
+	font-family: $sans-serif-font;
+	margin: 0px;
+	/*font-size: 2.37em;*/
+	font-size: 1.8em;
+	line-height: 1.22em;
+   	text-align: center;
+   	text-transform: capitalize;
+   	padding: 1em 1em;
+}
+
+.folio h1 {
+	font-family: $sans-serif-font;
+	margin: 0px;
+	font-size: 2em;
+   	text-align: center;
+   	text-transform: capitalize;
+   	padding: 0.2em 0em;
+	margin-bottom: 0.4em;
+}
+
+
+.project-description h2 {
+	font-family: $sans-serif-font;
+	margin: 0px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-size: 1.37em;
+	line-height: 1em;
+	//margin: 2em auto;
+	margin: 1.2em auto;
+	font-weight: normal;
+}
+
+#project-description p {
+	font-family: $sans-serif-font;
+	font-size: 1em;
+	text-align: justify;
+	font-family: $serif-font;
+	line-height: 1.6em;
+}
+
+#project-description h3 {
+	font-family: $sans-serif-font;
+	font-size: 1em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	margin: 2em 0px 1em 0px;
+}
+
+#project-description ul {
+	font-family: $serif-font;
+}
+
+#project-description ul.project-links {
+	font-family: $sans-serif-font;
+	margin-top: 2em;
+	display: block;
+	text-transform: uppercase;
+	font-size: 1em;
+	letter-spacing: 0.1em;
+	text-align: center;
+}

@@ -7,9 +7,8 @@
 
 require([
 	// Require the modules
-	'modules/module'
-], function (module) {
+	'app'
+], function (App) {
 	'use strict';
-
-	console.log(module);
+	App.initialize();
 });

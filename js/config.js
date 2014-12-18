@@ -4,10 +4,13 @@
 require.config({
 
 	// Initialize the application with the main application file
-	deps: ['plugins/console', 'main'],
+	deps: ['plugins/console', 'main', 'json/menu', 'json/projects'],
 
 	paths: {
-		jquery: '../components/jquery/dist/jquery.min'
+		jquery: '../bower_components/jquery/dist/jquery.min',
+		underscore: '../bower_components/underscore/underscore-min',
+		backbone: '../bower_components/backbone/backbone',
+		details: 'modules/details'
 		// More additional paths here
 	},
 

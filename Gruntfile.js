@@ -97,6 +97,12 @@ module.exports = function (grunt) {
 		'karma:unit'
 	]);
 
+	grunt.registerTask('build:simulation', [
+		'concat',
+		'uglify'
+	]);
+
+
 	// A task for testing production code
 	grunt.registerTask('test:build', [
 		'requirejs:compile',

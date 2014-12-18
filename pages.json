@@ -7,12 +7,12 @@
     ],
     "dest": "temp/index.html"
   },
-  "about": {
+  "gallery": {
     "src": [
       "templates/header.html",
-      "templates/about.html",
+      "templates/gallery-main.html",
       "templates/footer.html"
     ],
-    "dest": "temp/about.html"
+    "dest": "temp/gallery.html"
   }
 }

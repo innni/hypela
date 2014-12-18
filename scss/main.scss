@@ -20,9 +20,18 @@
 @import 'page/header';
 @import 'page/main';
 @import 'page/footer';
+@import 'page/home';
+@import 'page/gallery';
+@import 'page/project-description';
+@import 'page/effects';
+//@import 'media/mobile';
 
 // Modules
 @import 'modules/box';
+@import 'modules/arrow';
+
+//Effects
+@import 'page/effects';
 
 // Print Stylesheets
 @media print {

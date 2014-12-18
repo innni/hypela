@@ -1,0 +1,131 @@
+.arrow_box {
+	position: relative;
+	border: 0px solid #c2e1f5;
+    text-align: center;
+}
+
+.arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	
+	border-top-color: #142A38;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+.arrow_box:before {
+
+	border-top-color: #00C8C8;
+	border-width: 14px;
+	margin-left: -14px;
+}
+
+/* Arrow Top */
+
+.arrow_box_top {
+	position: relative;
+	border: 0px solid #c2e1f5;
+    text-align: center;
+}
+
+.arrow_box_top:after, .arrow_box_top:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box_top:after {
+	
+	border-bottom-color: #142A38;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+.arrow_box_top:before {
+
+	border-bottom-color: #00C8C8;
+	border-width: 14px;
+	margin-left: -14px;
+}
+
+
+/* Arrow Left */
+
+.arrow_box_left {
+	position: relative;
+	border: 0px solid #c2e1f5;
+    text-align: center;
+}
+
+.arrow_box_left:after, .arrow_box_left:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box_left:after {
+	
+	border-right-color: #142A38;
+	border-width: 10px;
+	margin-top: -10px;
+}
+
+.arrow_box_left:before {
+
+	border-right-color: #00C8C8;
+	border-width: 14px;
+	margin-top: -14px;
+}
+
+
+/* Arrow Right */
+
+.arrow_box_right {
+	position: relative;
+	border: 0px solid #c2e1f5;
+    text-align: center;
+}
+
+.arrow_box_right:after, .arrow_box_right:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box_right:after {
+	
+	border-left-color: #142A38;
+	border-width: 10px;
+	margin-top: -10px;
+}
+
+.arrow_box_right:before {
+
+	border-left-color: #00C8C8;
+	border-width: 14px;
+	margin-top: -14px;
+}

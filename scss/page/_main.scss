@@ -1,3 +1,70 @@
 /**
  * All styles related to markup inside the main element
  */
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ a {
+ 	color: #fff;
+ 	text-decoration: none;
+ }
+
+ .last {
+ 	margin-right: 0px;
+ }
+
+.white {
+  color: #faf8f6;
+}
+
+.dark-bg {
+  background-color: $dark;
+}
+
+.blue-bg {
+  background-color: $blue;
+}
+
+.offwhite-bg {
+  background-color: $offwhite;
+}
+
+.offwhite {
+  background-color: $offwhite;
+}
+
+html {
+ transition: background-color 1000ms linear;
+ background: $offwhite;
+}
+
+ body {
+ 	display: block;
+ 	overflow-x: hidden !important;
+  font-size: 19px;
+
+ }
+
+.about h1 {
+  color: $blue;
+}
+
+.about h2 {
+  color: $white;
+}
+
+.page {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
